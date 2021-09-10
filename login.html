@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8" />
+    <title>BUDDY - כניסה</title>
+    <meta name="description" content="אתר מלווה למשפחות אומנה עבור המרכז הישראלי לכלבי נחייה" />
+    <meta name="keywords"
+          content="כלבים, נחייה, אומנה, המרכז הישראלי לכלבי נחייה, פרויקט גמר, dog, guide, guide dogs" />
+    <meta name="author" content="Lital Lavi & Michal Navon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--Icon-->
+    <link rel="icon" href="pics/iconPaw.png" type="image/icon type">
+
+    <!-- CSS -->
+    <link href="styles/login.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+
+<body>
+    <div id="container" class="form-wrapper">
+        <img id="logoLogin" src="pics/FINALOGO2Blue.png" width="150" />
+        <p>היי</p>
+        <br />
+        <br />
+        <div action="" class="form">
+            <div class="form-group">
+                <label class="form-label" for="email">השם שלי</label>
+                <input class="input name" id="name" type="text" placeholder=" ">
+            </div>
+
+
+            <div class="form-group">
+                <label class="form-label" for="password">שם הגור שלי</label>
+                <input class="input puppyName" id="puppyName" type="text" placeholder=" ">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="password">גיל הגור שלי (בחודשים)</label>
+                <input class="input puppyAge" id="puppyAge" type="number" placeholder=" ">
+            </div>
+            <br />
+            <!--<button class="button" onclick="clickOnLoginBtnNoPuppy()">אין לי גור</button>-->
+            <button id="buttonLogin" class="button" onclick="clickOnLoginBtn()">כניסה</button>
+            <br />
+            <br />
+            <a id="dontHavePuppy" href="#" onclick="noPuppyLink()">עדיין אין לי גור</a>
+            <br />
+            <br />
+            <h3 id="errorMsg" style="color:#F44336"></h3>
+            <img id="somethingMissing" src="pics/errorMsg.png" style="display:none" width="30" />
+        </div>
+
+
+
+    </div>
+    <script src="jScripts/login.js"></script>
+</body>
+
+</html>
