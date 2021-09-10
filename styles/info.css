@@ -1,0 +1,126 @@
+﻿@font-face {
+    font-family: 'Luizi';
+    src: url('../Fonts/OS_Luizi Round-FFC.otf');
+}
+
+@font-face {
+    font-family: 'Assistant-Regular';
+    src: url('../Fonts/Assistant-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Assistant-SemiBold';
+    src: url('../Fonts/Assistant-SemiBold.otf');
+}
+
+.card{
+    box-shadow:none;
+}
+
+.card-footer-item {
+    padding:0.5rem;
+}
+
+.card-footer-item:not(:last-child){
+    border:none;
+}
+
+.blueHeader{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.blueHeader a{
+        grid-column: 1 / span 3 !important;
+    justify-self: center !important;
+
+                margin-right: 2rem !important;
+}
+
+.blueHeader .w3-container{
+         grid-column: 4;     
+
+}
+#blueA {
+    color: #3273dc !important;
+}
+
+header.blueHeader {
+    height: 100px !important;
+}
+
+#aboutH2 {
+    font-family: Assistant-SemiBold;
+}
+
+#aboutUp {
+    background-color: #14213d !important;
+    text-align: center;
+}
+
+#aboutDown {
+    font-family: Assistant-Regular;
+    background-color: #14213d !important;
+    text-align: center;
+}
+
+
+.w3-hover-teal w3-teal h2 {
+    font-family: Assistant-Regular;
+}
+
+#aboutCenter {
+    text-align: center;
+}
+
+#aboutRight {
+    float: left;
+    text-align: right;
+    margin-top: -34%;
+    margin-left: 8%;
+}
+
+#aboutLogo {
+}
+
+#coaop {
+    float: left;
+    text-align: right;
+    margin-left: 11%;
+    margin-top: -20%;
+}
+
+.w3-container {
+    align-items: center;
+    text-align: center;
+    font-family: Assistant-Regular
+}
+
+#HITlogo {
+    margin-left: 35%;
+    margin-top:6%;
+}
+
+#MercazLogo{
+margin-left: 40%;
+margin-top: 8%;
+}
+
+#abotBTN {
+    background-image: url('../pics/about-02.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #14213d !important;
+    padding: 0.8rem;
+    margin-left: -1.6rem;
+    margin-top: -2.2rem;
+}
+
+.downloadLawIcon{
+    width:12%;
+}
+
+#somethingMissing{
+
+}
